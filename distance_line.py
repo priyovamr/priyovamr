@@ -54,9 +54,9 @@ def getDistance(img,imgContour):
             cv2.putText(imgContour, S, (5, 50), font, 1, (0, 255, 255), 2, cv2.LINE_AA)
             cv2.drawContours(imgContour, cnt, -1, (0, 255, 0), 3)
 
-def speedFinder(distance, timeTaken):
-    speed = coveredDistance / timeTaken  
-    return speed
+# def speedFinder(distance, timeTaken):
+#     speed = coveredDistance / timeTaken  
+#     return speed
 
 def averageFinder(completeList, averageOfItems):  
     lengthOfList = len(completeList)  
